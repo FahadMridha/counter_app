@@ -15,19 +15,6 @@ const Child = () => {
   return (
     <div className="text-center">
       <p>{state}</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ullam
-        possimus numquam neque. Perferendis harum architecto ducimus facilis,
-        quo eligendi facere suscipit quidem maxime deserunt nam omnis. Nihil
-        ducimus praesentium nemo odit, repellendus, aliquid soluta illum non id
-        possimus vel. Sed earum deleniti magni eos soluta, veniam modi quam
-        alias excepturi id sint, eligendi voluptate minus cumque ullam
-        laudantium exercitationem. Ab quam quos quis voluptatum libero, sequi
-        aliquam aliquid odit laborum quisquam rerum velit harum repudiandae
-        suscipit reprehenderit optio dolores doloremque! Eveniet culpa fugiat
-        ullam dolore. Fugiat, vero! Quam veniam debitis vitae est inventore
-        consequatur labore aut assumenda consequuntur animi.
-      </p>
       <button
         onClick={() => dispatch({ type: "INCREMENT", payload: { count: 5 } })}
       >
