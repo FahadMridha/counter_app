@@ -13,24 +13,20 @@ const Child = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <div className="text-center">
-      <p>{state}</p>
+    <div className="text-center ">
+      <p className="text-xl font-bold text-teal-800">{state}</p>
       <button
+        className="btn btn-primary"
         onClick={() => dispatch({ type: "INCREMENT", payload: { count: 5 } })}
       >
         Increment
       </button>
       <button
+        className="btn btn-secondary ml-2"
         onClick={() => dispatch({ type: "DECREMENT", payload: { count: 5 } })}
       >
-        minuse
+        Decrement
       </button>
-      <button className="btn">Button</button>
-      <button className="btn btn-primary">Button</button>
-      <button className="btn btn-secondary">Button</button>
-      <button className="btn btn-accent">Button</button>
-      <button className="btn btn-ghost">Button</button>
-      <button className="btn btn-link">Button</button>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const Parent = () => {
 
   return (
     <div>
-      <div>{count}</div>
+      {/* <div>{count}</div> */}
       <Child />
     </div>
   );
