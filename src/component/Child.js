@@ -15,6 +15,20 @@ const Child = () => {
   return (
     <div className="text-center">
       <p>{state}</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        soluta, veritatis hic, illo consequatur officia incidunt dolore quos
+        autem recusandae ex officiis ea, perferendis quibusdam labore magni cum.
+        Unde excepturi, sit ratione, voluptatibus quisquam assumenda culpa
+        aliquid sed accusamus pariatur in voluptate animi numquam aspernatur
+        exercitationem eius, incidunt provident quaerat eum aliquam! Quaerat
+        obcaecati earum eius praesentium vero. Iure, voluptate accusantium.
+        Minima autem necessitatibus tempora sit libero, pariatur exercitationem
+        assumenda aperiam officia alias quo fugiat reprehenderit aut voluptate
+        vitae rem consequatur ad quidem minus nostrum! Labore quod fugit a
+        dolores consequuntur voluptatibus, voluptate beatae quae nesciunt sit,
+        voluptates pariatur dolor.
+      </p>
       <button
         onClick={() => dispatch({ type: "INCREMENT", payload: { count: 5 } })}
       >
