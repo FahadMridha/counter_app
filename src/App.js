@@ -9,7 +9,7 @@ function App() {
 
   return (
     <COUNTER_CONTEXT.Provider value={value}>
-      <div className="App">
+      <div className="">
         <Parent />
         <PersonalInfo />
       </div>
