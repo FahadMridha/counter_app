@@ -14,6 +14,12 @@ const Child = () => {
 
   return (
     <div className="text-center ">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, facilis
+        quia! Odio recusandae iure adipisci ipsam ut! Quae praesentium aliquam
+        iusto fugit aut, dolor ratione voluptatibus iure dolorum mollitia neque.
+      </p>
+
       <p className="text-xl font-bold text-teal-800">{state}</p>
       <button
         className="btn btn-primary"
