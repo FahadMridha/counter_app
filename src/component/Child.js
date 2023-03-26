@@ -15,19 +15,6 @@ const Child = () => {
   return (
     <div className="text-center ">
       <p className="text-xl font-bold text-teal-800">{state}</p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem cum itaque
-        libero sapiente incidunt. Ducimus sunt iure in nihil ex iusto amet
-        reiciendis eum mollitia dignissimos culpa aliquam, repudiandae at
-        ratione aliquid, ullam quod nesciunt delectus ab voluptatem suscipit
-        vero? Dolor facilis, ullam repudiandae dolorum consequatur ratione. Eos
-        earum officiis ipsa molestiae odio magnam molestias aut provident, vel
-        iusto facere dignissimos consequuntur quae nostrum laborum magni! Ad,
-        aperiam quis alias commodi illo cupiditate accusamus eveniet ipsa
-        asperiores? Dolore consequuntur officiis deleniti nesciunt ex reiciendis
-        earum, dolorum culpa animi ipsa sint modi numquam eveniet quibusdam
-        pariatur fugit mollitia voluptate quisquam non?
-      </p>
       <button
         className="btn btn-primary"
         onClick={() => dispatch({ type: "INCREMENT", payload: { count: 5 } })}
